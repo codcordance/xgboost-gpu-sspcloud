@@ -1,6 +1,6 @@
 # XGBoost SSPCloud
 
-For reasons I've yet to investigate (probably Linux distros with GLIBC older than 2.28), the pip version of XGBoost does not offer GPU compatibility. This repository hosts a compiled version with GPU support.
+For reasons I've yet to investigate (probably Linux distros with GLIBC older than 2.28), the pip version of XGBoost on SSPCloud Python GPU instances does not offer CUDA compatibility. This repository hosts a compiled version with GPU/CUDA support.
 
 ## Installation
 
