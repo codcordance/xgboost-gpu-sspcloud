@@ -6,12 +6,12 @@ For reasons I've yet to investigate (probably Linux distros with GLIBC older tha
 
 ### Direct pip installation
 ```bash
-pip install https://github.com/codcordance/xgboost-gpu-sspcloud/releases/download/v1.0/your_xgboost_wheel_filename.whl
+pip install https://github.com/codcordance/xgboost-gpu-sspcloud/releases/download/v3.0.0.0.dev0/xgboost-3.0.0.dev0-py3-none-manylinux_2_35_x86_64.whl
 ```
 
 ### From sources
 ```bash
 git clone https://github.com/codcordance/xgboost-gpu-sspcloud.git
-cd xgboost-gpu-sspcloud
+cd xgboost-gpu-sspcloud/src/python-package
 pip install .
 ```
